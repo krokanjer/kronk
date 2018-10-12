@@ -1,0 +1,62 @@
+<html><head>
+  <title>ABC-Forumule-Inator</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script language="JavaScript">
+
+function ABC_formule(A, B, C)
+{
+if ( isNaN (A) || isNaN (B) || isNaN (C) ) {
+alert ("Deze werkt niet!");
+return;
+}
+if ( A == 0 )
+{
+alert ("Dit is geen kwadraat!");
+return;
+}
+var resultaat;
+var D = B * B - 4 * A * C;
+if ( D < 0 )
+{
+alert ("Geen oplossing!");
+return;
+}
+if ( D == 0 )
+{
+resultaat = -B / (2 * A);
+alert ("Er is maar 1 oplossing:	" + resultaat);
+return;
+}
+if ( D > 0 )
+{
+resultaat = (-B - Math.sqrt (D)) / (2 * A);
+alert ("De 1ste oplossing:	" + resultaat);
+resultaat = (-B + Math.sqrt (D)) / (2 * A);
+alert ("De 2e oplossing:	" + resultaat);
+}
+}
+</script>
+</head>
+<body>
+<h1>Hoe werkt het?</h1>
+<h2>Hieronder vul je 3 getallen in waarvan onze abc-formule-inator de abc formule berekent.</h2>
+<center>
+<p>
+<br>
+<br>
+</p><form name="ABC_input">
+<table>
+<tbody><tr>
+<td><input type="TEXT" name="input_A"></td> <td>X<sup>2</sup> +</td>
+<td><input type="TEXT" name="input_B"></td> <td>X             +</td>
+<td><input type="TEXT" name="input_C"></td> <td>= 0            </td>
+</tr>  
+</tbody></table>
+<input type="BUTTON" value="los op" onclick="ABC_formule (
+document.ABC_input.input_A.value,	
+document.ABC_input.input_B.value,	
+document.ABC_input.input_C.value)">	
+</form></center>
+<h1><iframe width="640" height="360" src="https://www.youtube.com/embed/QcF25PYwIaM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></h1>
+</body></html>
