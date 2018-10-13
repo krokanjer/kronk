@@ -35,3 +35,11 @@ td {
   text-align: center;
   text-transform: uppercase;
 }
+
+h3 {
+  color: #fff;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
