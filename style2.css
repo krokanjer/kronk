@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://art.pixilart.com/79cf2f401c72941.gif");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif");
   background-color: #cccccc;
   margin: 0;
   padding: 0;
@@ -40,6 +40,14 @@ h3 {
   color: #fff;
   font-family: 'Comic Sans MS', sans-serif;
   font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
