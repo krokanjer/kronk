@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="nl-nl" xmlns:ng="http://angularjs.org" id="ng-app">
+<head>
+    
+    <meta charset="utf-8">
+<title data-ng-bind-template="{{pageTitle}}"></title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="apple-mobile-web-app-title" content="Magister 6">
+<meta name="apple-itunes-app" content="app-id=1060525828">
+<!--<meta name="google-play-app" content="app-id=nl.schoolmaster.magister.mobile">-->
+<link rel="apple-touch-icon" sizes="152x152" href="/content/app/images/apple/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/content/app/images/apple/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/content/app/images/apple/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/content/app/images/apple/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/content/app/images/apple/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/content/app/images/apple/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/content/app/images/apple/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/content/app/images/apple/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" href="/content/app/images/apple/apple-touch-icon.png">
+
+<meta name="application-name" content="Magister 6" />
+<meta name="msapplication-config" content="/content/app/images/win8/ieconfig.xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="shortcut icon" sizes="192x192" href="/content/app/images/android/drawable-xxxhdpi/ic_launcher.png">
+<link rel="shortcut icon" sizes="144x144" href="/content/app/images/android/drawable-xxhdpi/ic_launcher.png">
+<link rel="shortcut icon" sizes="96x96" href="/content/app/images/android/drawable-xhdpi/ic_launcher.png">
+<link rel="shortcut icon" sizes="72x72" href="/content/app/images/android/drawable-hdpi/ic_launcher.png">
+<link rel="shortcut icon" sizes="48x48" href="/content/app/images/android/drawable-mdpi/ic_launcher.png">
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+
+    <meta name="format-detection" content="telephone=no" />
+    <link href="/bundles/styles-kendo?v=4M8ja26yOD12bgQqQDQmcMcI_ix1Cd9NDVz-4Tr9TA81" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/scss/desktop.css" />
+    <link rel="stylesheet" type="text/css" href="/css/magister.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/desktop/scss/print.css" media="print" />
+    
+        <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68783726-2', { 'sampleRate': 1 });
+      ga('set', 'forceSSL', true);
+      ga('set', 'anonymizeIp', true); 
+      ga('send', 'pageview');
+    </script>
+
+
+</head>
+<!--[if IE 8 ]><body class="ie8"> <![endif]-->
+<!--[if IE 9 ]><body class="ie9"> <![endif]-->
+<!--[if IE 10 ]><body class="ie10"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<body>
+    <!--<![endif]-->
+    
+
+
+
+
+
+
+    <!--[if lt IE 9]><div class="browser-error"><div class="dialog dialog-small"><div class="content-pane"><h3 class="title" data-ng-bind="vm.title">Uw browser wordt niet ondersteund</h3><div class="content"><p>De gebruikte versie van Internet Explorer wordt niet ondersteund. Magister heeft minimaal Internet Explorer 11 nodig vanwege ondersteuning van HTML 5. </p><p>Krijgt u deze melding bij gebruik van een actuele versie van Internet Explorer? Controleer dan de compatibiliteitsinstellingen van de browser...</p></div><div class="footer"></div></div></div></div><![endif]-->
+
+    <header class="header">
+        <div class="logo">
+            <a href="{{vandaagUrl}}"><span class="icon-logo"></span>Magister</a>
+        </div>
+        <div class="logoff" data-logoff="logoff"></div>
+        <div class="header-user" data-sm-logged-in-user="logged-in-user"></div>
+        <div id="kind-kiezer" data-ng-if="showPersoonKiezer" class="user" aria-haspopup="true" data-sm-kindkiezer="ouder"></div>
+    </header>
+
+    <div data-sm-toast="toasts"></div>
+
+    <div data-sm-dialog="dialog"></div>
+    <div data-ng-class="{'nav-toggle': menuExpanded === true}" class="master-view">
+        <div data-sm-menu="menu"></div>
+        <div data-ng-view="ng-view" class="view"></div>
+    </div>
+
+    
+
+    <script type="text/javascript">
+    var globalSettings = {
+        apiHost: 'https://reggesteyn.magister.net/',
+        applicationLoUrl: '/magister',
+        applicationOpUrl: '/op',
+        deviceType: 'desktop',
+        offlineSupport:  false ,
+        showOnedriveConnectionWarning: true ,
+        clientVersion: '6.1.32',
+        buildDate: '20-11-2018 6:34:42',
+        apiKeyHeader: 'API-Client-ID',
+        apiKey: '4AF1',
+        kennisnetLogin: true ,
+        isReleaseBuild: true ,
+        featureFlags: {
+            m6LoggingEnabled: false
+        }
+    };
+</script>
+
+
+
+        <script src="/Scripts/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/Scripts/angularjs/1.5.10/angular.min.js"></script>
+    <script>window.angular || document.write('<script src="/Scripts/angularjs/1.5.10/angular.min.js"><\/script>') </script>
+    <script src="/Scripts/angularjs/1.5.10/angular-cookies.min.js"></script>
+    <script src="/Scripts/angularjs/1.5.10/angular-resource.min.js"></script>
+    <script src="/Scripts/angularjs/1.5.10/angular-sanitize.min.js"></script>
+    <script src="/Scripts/angularjs/1.5.10/angular-route.min.js"></script>
+    <script src="/Scripts/angularjs/1.5.10/angular-touch.min.js"></script>
+
+
+<script src="/Scripts/angularjs/1.5.10/i18n/angular-locale_nl.js"></script>
+
+    <script src="/bundles/vendor?v=_0pz6bq82h5wlVpqRiUn4mW7oa700o4TNBbW8eJfj581"></script>
+
+    <script type="text/javascript">kendo.culture('nl-NL');</script>
+    <script src="/oidc/client/oidc-client.min.js?_v=1.4.1"></script>
+    <script src="/oidc_config.js"></script>
+
+    <script src="/bundles/magister-min-shared?v=pO3xmJBLG4LBFn3IJGGBfr-Olu0inkBPu8Ewhv4LGTk1"></script>
+
+    <script src="/bundles/magister-min?v=RSdpbK31hK0VVvjCL75gfN8EPbhg_nqZmcOhBqZPqN01"></script>
+
+
+    
+    <script>var require = { urlArgs: 'v=2.32.1.0' };</script>
+    <script data-main="/Content/app/scripts/requireConfig.js" src="/Scripts/requirejs/2.1.16/require.js"></script>
+
+
+    
+
+</body>
+</html>
+
+
+
