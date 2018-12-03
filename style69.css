@@ -1,1 +1,53 @@
-hier komt het
+body {
+  background-image: url("https://images.unsplash.com/photo-1509557197493-3fc0937d76df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aaad0bcffa6394c22708e013d0960e97&w=1000&q=80");
+  background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1 {
+  color: #ff0000;
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+td {
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #fff;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
