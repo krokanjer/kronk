@@ -6,11 +6,11 @@ var overviewerConfig = {
         {
             "spawn": [
                 337, 
-                64, 
+                80, 
                 379
             ], 
             "isOverlay": false, 
-            "last_rendertime": 1559862430, 
+            "last_rendertime": 1560295883, 
             "name": "Overviewer Render (lighting)", 
             "poititle": "Markers", 
             "north_direction": 0, 
@@ -66,6 +66,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1559864240"
+        "cacheTag": "1560298964"
     }
 };
