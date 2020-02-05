@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,6 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
@@ -56,6 +58,7 @@
       <workItem from="1579629040850" duration="1125000" />
       <workItem from="1579731468778" duration="859000" />
       <workItem from="1580172013777" duration="271000" />
+      <workItem from="1580910988758" duration="1120000" />
     </task>
     <servers />
   </component>
