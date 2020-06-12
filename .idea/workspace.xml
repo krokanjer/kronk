@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="002a0690-58ad-4749-a4bf-a383c2e65b03" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="5834c528-1eb1-4a7a-b8ca-9be13b07da3a" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+<<<<<<< Updated upstream
     <execution>
       <executable />
     </execution>
@@ -19,10 +24,14 @@
         <option value="HTML File" />
       </list>
     </option>
+=======
+    <execution />
+>>>>>>> Stashed changes
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1WfVrA189xH0RufUF3vHtL3NWTc" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -41,12 +50,25 @@
         </RuleState>
       </list>
     </option>
+=======
+  <component name="ProjectId" id="1dEGDaY3GhwUiNj3Dz2lTNBEOIu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="002a0690-58ad-4749-a4bf-a383c2e65b03" name="Default Changelist" comment="" />
       <created>1579540831549</created>
       <option name="number" value="Default" />
@@ -56,10 +78,19 @@
       <workItem from="1579629040850" duration="1125000" />
       <workItem from="1579731468778" duration="859000" />
       <workItem from="1580172013777" duration="271000" />
+=======
+      <changelist id="5834c528-1eb1-4a7a-b8ca-9be13b07da3a" name="Default Changelist" comment="" />
+      <created>1591982719610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591982719610</updated>
+      <workItem from="1591982720864" duration="336000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
+<<<<<<< Updated upstream
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +105,8 @@
         </entry>
       </map>
     </option>
+=======
+    <option name="version" value="2" />
+>>>>>>> Stashed changes
   </component>
 </project>
